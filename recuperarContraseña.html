@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/Style.css">
+    <link rel="stylesheet" href="./css/recuperarcontrasena.css">
+    <title>CameraRooster</title>
+</head>
+
+<body>
+
+    <div class="all">
+        <!-- header -->
+        <section>
+            <div class="logo-plus-text">
+                <img class="logo" src="./imagenes/logo.jpg" alt="logo">
+                <h1 class="logo-text">CameraRooster</h1>
+            </div>
+            <h2 class="tittle">Te ayudamos a recuperar su contraseña!</h2>
+        </section>
+        <!-- header -->
+
+        <!-- datos -->
+        <section class="email-container">
+            <p class="paragraph">Escribe tu correo electronico, para enviarte tu nueva contraseña de acceso</p>
+            <form action="./php/enviar_c.php" method="POST">
+                <input id="email" class="text-field" type="text" name="direccioncorreo" placeholder="correo@gmail.com">
+                <span id="info" class="error-message">Este correo no posee una cuenta</span>
+                <input class="submit" type="submit" value="Recuperar">
+            </form>
+        </section>
+        <!-- datos -->
+    </div>
+    <!-- footer -->
+    <footer>
+        <div class="Logo"><img src="./imagenes/logo.jpg" alt="Logo" width="30px" height="30px" class="izquierda"></div>
+        <aside class="LogoText">CameraRooster</aside>
+        <div class="reset"></div>
+
+        <p class="FooterTextCenter">Copyright 2020 - All rights reserved</p>
+
+    </footer>
+    <!-- footer -->
+    <script src="./js/recuperarcontrasenia.js"></script>
+</body>
+
+</html>

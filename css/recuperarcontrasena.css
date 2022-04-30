@@ -1,0 +1,70 @@
+.all {
+    margin: 2em 0 12.3em;
+}
+
+.logo-plus-text {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    width: 3em;
+    position: relative;
+    display: inline-block;
+    top: 2em;
+}
+
+.logo-text {
+    font-size: 2.4em;
+    text-align: center;
+    font-weight: 900;
+    display: inline-block;
+    position: relative;
+    top: 0.7em;
+}
+
+.tittle {
+    font-weight: 300;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5em;
+}
+
+.email-container {
+    background-color: #f7f7f7;
+    width: 24em;
+    height: 18em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1em;
+}
+
+.paragraph {
+    font-size: 0.9em;
+    margin: 0em auto 3em auto;
+    text-align: center;
+    top: 3em;
+    position: relative;
+}
+
+.text-field {
+    position: relative;
+    text-align: center;
+    margin: 4em auto 1.5em auto;
+}
+
+.submit {
+    background-color: #f2071b;
+    opacity: 100%;
+    color: #ffffff;
+    width: 19.4em;
+    height: 2.5em;
+    text-align: center;
+    margin: 0em auto 0 auto;
+    position: relative;
+    font-size: 0.9em;
+    font-weight: 300;
+}

@@ -1,0 +1,89 @@
+    "Medoo load library": {
+		"prefix": "mload",
+		"body": [
+			"namespace Medoo;",
+			"require \"Medoo.php\";"
+		],
+		"description": "Create namespace and load library"
+	},
+
+	"Medoo database connection": {
+		"prefix": "mcon",
+		"body": [
+			"$$database = new Medoo([",
+				"\t\"database_type\" => \"mysql\",",
+				"\t\"database_name\" => \"$your_db_name\",",
+				"\t\"server\" => \"$your_server_name\",",
+				"\t\"username\" => \"$db_user\",",
+				"\t\"password\" => \"$db_user_password\"",
+			"]);"
+		],
+		"description": "Create database connection"
+	},
+
+	"Medoo select all": {
+		"prefix": "msel*",
+		"body": [
+			"$$database->select(\"$tb_name\", \"*\");"
+		],
+		"description": "Select all columns"
+	},
+
+	"Medoo select": {
+		"prefix": "msel",
+		"body": [
+			"$$database->select(\"$tb_name\", [",
+				"\t\"$field1\",",
+				"\t\"$field2\"",
+			"],[",
+				"\t\"$field\" => \"$value\"",
+			"]);"
+		],
+		"description": "Select data from a record"
+	},
+
+	"Medoo inner join": {
+		"prefix": "mjoin",
+		"body": [
+			"$$database->select(\"$tb1_name\", [",
+				"\t\"[><]$tb2_name\" => [\"$tb1_field\" => \"$tb2_field\"]",
+			"],[",
+				"\t\"$tb1_field1\", \"$tb1_field2\", \"$tb1_field3\", \"$tb2_field1\", \"$tb2_field2\", \"$tb2_field3\"",
+			"]);"
+		],
+		"description": "Inner join operation"
+	},
+
+	"Medoo insert": {
+		"prefix": "mins",
+		"body": [
+			"$$database->insert(\"$tb_name\", [",
+				"\t\"$field1\" => \"$value1\",",
+				"\t\"$field2\" => \"$value2\"",
+			"]);"
+		],
+		"description": "Insert new record"
+	},
+
+	"Medoo update": {
+		"prefix": "mupd",
+		"body": [
+			"$$database->update(\"$tb_name\", [",
+				"\t\"$field1\" => \"$value1\",",
+				"\t\"$field2\" => \"$value2\"",
+			"],[",
+				"\t\"$field\" => \"$value\"",
+			"]);"
+		],
+		"description": "Update data for a record"
+	},
+
+	"Medoo delete": {
+		"prefix": "mdel",
+		"body": [
+			"$$database->delete(\"$tb_name\", [",
+				"\t\"$field\" => \"$value\"",
+			"]);"
+		],
+		"description": "Delete record"
+	}

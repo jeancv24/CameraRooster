@@ -1,0 +1,152 @@
+.footerFixed {
+    width: 100%;
+    padding: .5em 0 .5em;
+    background: #000000;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+
+.generalTextLogin {
+    margin-top: 1.2em;
+    text-align: center;
+    color: #686868;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 1.2em;
+}
+
+.LoginImage {
+    display: none;
+}
+
+.socialMediaBtn {
+    color: white;
+    border: white;
+    background: white;
+    outline: none;
+}
+
+.socialMediaBtn:focus {
+    color: white;
+    border: white;
+    background: white;
+    outline: none;
+}
+
+@media (min-width: 1200px) {
+    .LoginImageDiv {
+        display: block;
+    }
+    .loginDesktop {
+        float: left;
+        width: 50%;
+        margin-top: 1%;
+        margin-left: 5%;
+    }
+    .LoginImage {
+        display: block;
+        width: 50%;
+        height: 100%;
+        float: right;
+        display: block;
+        position: absolute;
+        left: 50%;
+        top: 0%;
+        z-index: -1;
+        object-fit: cover;
+    }
+}
+
+@media (min-width: 990px) {
+    .LoginImageDiv {
+        display: block;
+    }
+    .loginDesktop {
+        float: left;
+        width: 50%;
+        margin-top: 1%;
+        margin-left: 5%;
+    }
+    .LoginImage {
+        display: block;
+        width: 50%;
+        height: 100%;
+        float: right;
+        display: block;
+        position: absolute;
+        left: 50%;
+        top: 0%;
+        z-index: -1;
+        object-fit: cover;
+    }
+}
+
+@media (min-width: 768px) {
+    .loginDesktop {
+        margin-top: 16%;
+        margin-left: 0%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .loginDesktop {
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+}
+
+@media (min-width: 1280px) {
+    .loginDesktop {
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+}
+
+@media (width: 1280px) and (height: 700px) {
+    .loginDesktop {
+        margin-top: -1%;
+        margin-left: 4%;
+        width: 41%;
+    }
+}
+
+@media (width: 1280px)and (height: 800px) {
+    .loginDesktop {
+        margin-top: 3%;
+        margin-left: 0%;
+    }
+}
+
+@media (width: 1440px) and (height: 900px) {
+    .loginDesktop {
+        margin-top: 6%;
+    }
+}
+
+@media (width: 1600px) and (height: 1200px) {
+    .loginDesktop {
+        margin-top: 6%;
+    }
+}
+
+@media (width: 1920px) and (height: 1080px) {
+    .col {
+        width: 33.4%;
+        float: left;
+        margin-left: -13.2%;
+        margin-right: -2.7%;
+        margin-bottom: 2%;
+        padding-left: 28.8%;
+    }
+    .CategoryDesktop {
+        left: 65.3%;
+        bottom: -428px;
+        font-size: 22px;
+    }
+    .loginDesktop {
+        margin-top: 7%;
+        margin-left: 0%;
+    }
+}

@@ -1,0 +1,207 @@
+body {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    background-color: #ffffff;
+}
+
+.error-message{
+    display: none;
+    color: red;
+    
+}
+
+
+form label.error {
+	float: left;
+	color: red;
+	font-weight: normal;
+	padding-left: .5em;
+    vertical-align: top;
+    width: 70.7%;
+}
+
+.main-section {
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+.primary-span {
+    background-color: #ff0000;
+    border: 2px solid #ff0000;
+    margin-left: 1em;
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+.h1-style {
+    display: inline;
+    width: 4em;
+    padding-left: 0.8em;
+    font-size: 1.8em;
+    margin-top: 1em;
+}
+
+.h2-style {
+    text-align: center;
+    font-size: 1.2em;
+    padding-top: 1em;
+}
+
+.right-photo {
+    display: none;
+}
+
+.input-textfield {
+    padding-left: 3em;
+    padding-bottom: 2em;
+}
+
+.registrarse-btn {
+    width: 14.4em;
+    height: 2em;
+    margin: 2em 6em 3em 3em;
+    color: #ffffff;
+    border-radius: 10px;
+    background-color: #ff0000;
+    opacity: 100%;
+    font-size: 1em;
+    text-align: center;
+}
+
+.registrarse-btn:hover {
+    background-color: #ffffff;
+    color: #ff0000;
+}
+
+.p-pc {
+    display: none;
+}
+
+.left-container {
+    border-radius: 18px;
+    padding: 2em 0 0 0em;
+    margin: 1em 0 0 2em;
+}
+
+.left-container {
+    width: 23em;
+}
+
+
+
+@media (min-width: 767px) {
+    .h2-style {
+        text-align: left;
+        font-size: 1.2em;
+        padding-left: 14em;
+        display: none;
+    }
+    .p-pc {
+        display: block;
+        text-align: center;
+        padding-bottom: 1em;
+        padding-top: 1em;
+        font-size: 1.3em;
+    }
+    .main-section {
+        padding-top: 2em;
+        padding-left: 3em;
+        font-size: 1.4em;
+    }
+    .input-textfield {
+        padding-left: 9em;
+        padding-bottom: 2em;
+    }
+    .left-container {
+        width: 40em;
+        background-color: #EDEDED;
+        border-radius: 18px;
+        padding: 2em 0 0 0em;
+        margin: 2em 0 6em 4em;
+    }
+    .background {
+        padding: 2em 0 0 2em;
+        margin: 2em 0 0 2em;
+        background-color: #EDEDED;
+        border-radius: 18px;
+        width: 40em;
+    }
+    .registrarse-btn {
+        margin: 2em 6em 3em 9em;
+        width: 22.4em;
+    }
+}
+@media (min-width: 1350px) {
+    .right-photo{
+        display: block;
+        width: 50%;
+        height: 125%;
+        float: right;
+        display: block;
+        position: absolute;
+        left: 50%;
+        top: 4%;
+        z-index: -1;
+        object-fit: cover;
+    }
+    .left-container {
+        width: 40em;
+        background-color: #EDEDED;
+        border-radius: 18px;
+        padding: 2em 0 0 0em;
+        margin: 4em 0 6em 1em;
+    }
+}
+@media (min-width: 1510px) {
+    .right-photo {
+        display: block;
+        width: 50%;
+        height: 112%;
+        float: right;
+        display: block;
+        position: absolute;
+        left: 50%;
+        top: 0%;
+        z-index: -1;
+        object-fit: cover;
+    }
+    .h2-style {
+        text-align: left;
+        font-size: 1.2em;
+        padding-left: 14em;
+        display: none;
+    }
+    .p-pc {
+        display: block;
+        text-align: center;
+        padding-bottom: 1em;
+        padding-top: 1em;
+        font-size: 1.3em;
+    }
+    .main-section {
+        padding-top: 3em;
+        padding-left: 3em;
+        font-size: 1.2em;
+    }
+    .input-textfield {
+        padding-left: 9em;
+        padding-bottom: 2em;
+    }
+    .left-container {
+        width: 40em;
+        background-color: #EDEDED;
+        border-radius: 18px;
+        padding: 2em 0 0 0em;
+        margin: 2em 6em 0 4em;
+    }
+    .background {
+        padding: 2em 0 0 2em;
+        margin: 2em 0 0 2em;
+        background-color: #EDEDED;
+        border-radius: 18px;
+        width: 40em;
+    }
+    .registrarse-btn {
+        margin: 2em 6em 3em 9em;
+    }
+}

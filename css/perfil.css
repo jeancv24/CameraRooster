@@ -1,0 +1,708 @@
+body {
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+button{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-decoration: none;
+    outline: none;
+    text-align: center;
+    font-weight: 400;
+    font-size: 0.5em;
+    color: #ffffff;
+    background-color: #f2071b;
+    align-content: center;
+    border-color: #f2071b;
+    
+   
+    
+}
+/*BIO*/
+
+.bio-container {
+    margin: 4em 1em 0 1em;
+    padding: 4em 4em 0 4em;
+    background-color: #181818;
+    border-radius: 2em;
+}
+
+.bio-avatar {
+    width: 10em;
+    height: 10em;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background: url(../profilePics/default.png) no-repeat;
+    border-radius: 50%;
+    background-position: center;
+    background-size: 100%;
+}
+
+.bio-name {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.8em;
+    color: #ffffff;
+}
+
+.bio-email {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1em;
+    color: #ffffff;
+    opacity: 45%;
+}
+
+.bio-social-media {
+    display: inline-block;
+    color: #f2071b;
+    font-size: 2.2em;
+    margin: 0.2em 0em 0.5em 2.15em;
+    opacity: 81%;
+}
+
+/*CATEGORIES*/
+
+.cantagories-color {
+    background-color: #efefef;
+    margin: auto;
+    padding: 0.1em 0 1em 0;
+    width: 26em;
+}
+
+.category-container {
+    background-color: #a60321;
+    height: 3em;
+    width: 16em;
+    border-radius: 2em;
+    margin: 2em 0 2em 9em;
+    position: relative;
+}
+
+.category-paisaje {
+    position: relative;
+    font-weight: 300;
+    font-size: 1.8em;
+    color: #ffffff;
+    display: inline-block;
+    text-transform: uppercase;
+    top: -0.6em;
+    right: -4em;
+}
+
+.category-naturaleza {
+    position: relative;
+    font-weight: 300;
+    font-size: 1.8em;
+    color: #ffffff;
+    display: inline-block;
+    text-transform: uppercase;
+    top: -0.6em;
+    right: -1.5em;
+}
+
+.category-aerea {
+    position: relative;
+    font-weight: 300;
+    font-size: 1.8em;
+    color: #ffffff;
+    display: inline-block;
+    text-transform: uppercase;
+    top: -0.6em;
+    right: -4.7em;
+}
+
+.category-personas {
+    position: relative;
+    font-weight: 300;
+    font-size: 1.8em;
+    color: #ffffff;
+    display: inline-block;
+    text-transform: uppercase;
+    top: -0.6em;
+    right: -2.5em;
+}
+
+/*SLIDER*/
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul.slider {
+    position: relative;
+    width: 26em;
+    height: 37em;
+}
+
+ul.slider li {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+ul.slider li img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+}
+
+ul.slider li:first-child {
+    opacity: 1;
+    /*Mostramos el primer <li>*/
+}
+
+ul.slider li:target {
+    opacity: 1;
+    /*Mostramos el <li> del enlace que pulsemos*/
+}
+
+.menu {
+    text-align: center;
+    margin: 15px;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #343434;
+    padding: 10px;
+    width: 0em;
+    height: 0em;
+    font-size: 0em;
+    border-radius: 100%;
+}
+
+.menu li a:hover {
+    background-color: #a60321;
+}
+
+/*IMAGES*/
+
+.image-conteiner {
+    margin: 2.5em 1em 1em 1em;
+    
+    position: relative;
+    display: block;
+    background-color: #ffffff;
+    border-radius: 1em;
+}
+
+.no-image-conteiner {
+    margin: 2.5em 1em 1em 1em;
+    width: 24em;
+    height: 31em;
+    position: relative;
+    display: block;
+    background-color: #c5c5c5;
+    border-radius: 1em;
+}
+
+.plus-circle-color {
+    position: relative;
+    margin: 2em;
+    color: #767676;
+    top: 7.5em;
+    left: 2.3em;
+    font-size: 2.5em;
+    z-index: 1;
+}
+
+.image-size {
+    width: 100%;
+}
+
+.image-date {
+    font-weight: 400;
+    position: relative;
+    color: #343434;
+    font-size: 1.2em;
+    margin: 1em 0 1.5em 2em;
+    left: 12em;
+    top: 0.8em;
+}
+
+.image-votes-color {
+    position: relative;
+    display: inline-block;
+    left: -6.8em;
+    font-size: 1.5em;
+    padding: 0.4em 0 0.4em 0;
+}
+
+.image-votes {
+    position: relative;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 1.3em;
+    margin: 0.8em 0 0 3.1em;
+    top: -2.45em;
+    left: -0.9em;
+}
+
+.image-title {
+    position: relative;
+    margin: 0 0 0 1em;
+    padding: 0.5em 0 0 0;
+    font-weight: 900;
+    font-size: 1.4em;
+    top: -1.9em;
+    left: -0.2em;
+}
+
+.image-description {
+    font-weight: 400;
+    font-size: 1.2em;
+    color: #343434;
+    margin: 0.1em 0 0.8em 1.2em;
+    position: relative;
+    top: -2em;
+    left: -0.3em;
+}
+
+/*RESPONSIVE*/
+
+/*SMALL DEVICES*/
+
+@media (min-width: 720.98px) {
+    .bio-avatar {
+        width: 10em;
+        height: 10em;
+        margin: 1em 18em 0 18em;
+    }
+    .bio-social-media {
+        margin: 0.2em 1em 0.5em 6.6em;
+    }
+    .category-container {
+        margin: 2em 0 2em 30em;
+    }
+    .category-paisaje {
+        margin: 0.8em 1em 0em -1.3em;
+    }
+    .category-naturaleza {
+        margin: 0.8em 1em 0em -0.em;
+    }
+    .category-aerea {
+        margin: 0.8em 1em 0em -1.8em;
+    }
+    .category-personas {
+        margin: 0.8em 1em 0em -0.5em;
+    }
+    .cantagories-color {
+        width: 100%;
+        margin: 0em;
+        padding: 2em 0 2em 0;
+    }
+    /*SLIDER SMALL DEVICES*/
+    ul, li {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    ul.slider {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        columns: 3;
+        gap: 2em;
+    }
+    ul.slider li {
+        display: block;
+        position: relative;
+        left: 0px;
+        top: 0px;
+        opacity: 1;
+        transition: opacity .5s;
+    }
+    ul.slider li img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        object-position: top;
+    }
+    ul.slider li:first-child {
+        opacity: none;
+        /*Mostramos el primer <li>*/
+    }
+    ul.slider li:target {
+        opacity: none;
+        /*Mostramos el <li> del enlace que pulsemos*/
+    }
+    .menu {
+        text-align: none;
+        margin: none;
+    }
+    .menu li {
+        display: none;
+        text-align: none;
+    }
+    .menu li a {
+        display: none;
+        text-decoration: none;
+        background-color: none;
+        padding: none;
+        width: none;
+        height: none;
+        font-size: none;
+        border-radius: none;
+    }
+    .menu li a:hover {
+        background-color: none;
+    }
+    /*IMAGES*/
+    .image-conteiner {
+        margin: 0;
+    }
+    .no-image-conteiner {
+        margin: 0em;
+        width: 100%;
+        height: 450px;
+    }
+    .plus-circle-color {
+        top: 6em;
+        left: -0.2em;
+    }
+    .image-date {
+        margin: 1em 0 1.5em -7em;
+    }
+    .image-votes-color {
+        width: 1em;
+        height: 1em;
+        margin: 0 0 0 7.5em;
+        left: none;
+        font-size: none;
+        padding: none;
+    }
+    .image-votes {
+        margin: 0.8em 0 0 3em;
+        top: -2.45em;
+        left: -0.9em;
+    }
+    .image-title {
+        margin: 0 0 0 1em;
+        padding: 0 0 0.5em 0;
+        top: -1.9em;
+        left: -0.2em;
+        font-size: 1.2em;
+    }
+    .image-description {
+        margin: 0.1em 0px 0.8em 0em;
+        top: -2em;
+        left: -0.3em;
+        padding: 0 0.9em 0 1.2em;
+    }
+}
+
+/*MEDIUM DEVICES*/
+
+@media (min-width: 990px) {
+    .bio-avatar {
+        width: 10em;
+        height: 10em;
+        margin: 1em 26em 0 26em;
+    }
+    .bio-social-media {
+        margin: 0.2em 1em 0.5em 10.3em;
+    }
+    .category-container {
+        margin: 2em 0 2em 43em;
+    }
+    .category-paisaje {
+        margin: 0.8em 1em 0em -1.3em;
+    }
+    .category-naturaleza {
+        margin: 0.8em 1em 0em -0.em;
+    }
+    .category-aerea {
+        margin: 0.8em 1em 0em -1.8em;
+    }
+    .category-personas {
+        margin: 0.8em 1em 0em -0.5em;
+    }
+    .cantagories-color {
+        width: 100%;
+        margin: 0em;
+        padding: 2em 0 2em 0;
+    }
+    /*SLIDER TABLET*/
+    ul, li {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    ul.slider {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        columns: 3;
+        gap: 2em;
+    }
+    ul.slider li {
+        display: block;
+        position: relative;
+        left: 0px;
+        top: 0px;
+        opacity: 1;
+        transition: opacity .5s;
+    }
+    ul.slider li img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        object-position: top;
+    }
+    ul.slider li:first-child {
+        opacity: none;
+        /*Mostramos el primer <li>*/
+    }
+    ul.slider li:target {
+        opacity: none;
+        /*Mostramos el <li> del enlace que pulsemos*/
+    }
+    .menu {
+        text-align: none;
+        margin: none;
+    }
+    .menu li {
+        display: none;
+        text-align: none;
+    }
+    .menu li a {
+        display: none;
+        text-decoration: none;
+        background-color: none;
+        padding: none;
+        width: none;
+        height: none;
+        font-size: none;
+        border-radius: none;
+    }
+    .menu li a:hover {
+        background-color: none;
+    }
+    /*IMAGES*/
+    .image-conteiner {
+        margin: 0;
+    }
+    .no-image-conteiner {
+        margin: 0em;
+        width: 100%;
+        height: 450px;
+    }
+    .plus-circle-color {
+        top: 6em;
+        left: 0.9em;
+    }
+    .image-date {
+        margin: 1em 0 1.5em -3em;
+    }
+    .image-votes-color {
+        width: 1em;
+        height: 1em;
+        margin: 0 0 0 8em;
+        left: none;
+        font-size: none;
+        padding: none;
+    }
+    .image-votes {
+        margin: 0.8em 0 0 4em;
+        top: -2.45em;
+        left: -0.9em;
+    }
+    .image-title {
+        margin: 0 0 0 1em;
+        padding: 0.5em 0 0 0;
+        top: -1.9em;
+        left: -0.2em;
+    }
+    .image-description {
+        margin: 0.1em 0px 0.8em 0em;
+        top: -2em;
+        left: -0.3em;
+        padding: 0 0.9em 0 1.2em;
+    }
+}
+
+/*LARGE DEVICES*/
+
+@media (min-width: 1200px) {
+    .bio-container {
+        padding: 7em 4em 0 4em;
+    }
+    .bio-avatar {
+        width: 12em;
+        height: 12em;
+        margin: 1em auto 0 32em;
+    }
+    .bio-name {
+        margin: 1em 0 0 0;
+        font-size: 2.5em;
+    }
+    .bio-email {
+        font-size: 1.2em;
+    }
+    .bio-social-media {
+        margin: 0.2em auto 0.5em 15.1em;
+    }
+    .category-container {
+        margin: 2em 0 2em 54em;
+    }
+    .category-paisaje {
+        margin: 0.8em 1em 0em -1.3em;
+    }
+    .category-naturaleza {
+        margin: 0.8em 1em 0em -0.em;
+    }
+    .category-aerea {
+        margin: 0.8em 1em 0em -1.8em;
+    }
+    .category-personas {
+        margin: 0.8em 1em 0em -0.5em;
+    }
+    .cantagories-color {
+        width: 100%;
+        margin: 0em;
+        padding: 2em 0 2em 0;
+    }
+    /*SLIDER DESKTOP*/
+    ul, li {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    ul.slider {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        columns: 3;
+        gap: 2em;
+    }
+    ul.slider li {
+        display: block;
+        position: relative;
+        left: 0px;
+        top: 0px;
+        opacity: 1;
+        transition: opacity .5s;
+    }
+    ul.slider li img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        object-position: top;
+    }
+    ul.slider li:first-child {
+        opacity: none;
+        /*Mostramos el primer <li>*/
+    }
+    ul.slider li:target {
+        opacity: none;
+        /*Mostramos el <li> del enlace que pulsemos*/
+    }
+    .menu {
+        text-align: none;
+        margin: none;
+    }
+    .menu li {
+        display: none;
+        text-align: none;
+    }
+    .menu li a {
+        display: none;
+        text-decoration: none;
+        background-color: none;
+        padding: none;
+        width: none;
+        height: none;
+        font-size: none;
+        border-radius: none;
+    }
+    .menu li a:hover {
+        background-color: none;
+    }
+    /*IMAGES*/
+    .image-conteiner {
+        margin: 0;
+        position: relative;
+        display: block;
+    }
+    .no-image-conteiner {
+        margin: 0;
+        width: 100%;
+        height: 31em;
+        position: relative;
+        display: block;
+    }
+    .plus-circle-color {
+        top: 6.4em;
+        left: 1.8em;
+    }
+    .image-date {
+        margin: 1em auto 1.5em 1em;
+    }
+    .image-votes-color {
+        width: 1em;
+        height: 1em;
+        margin: 0 0 0 8em;
+        left: none;
+        font-size: none;
+        padding: none;
+    }
+    .image-votes {
+        margin: 0.8em auto 3em -7.5em;
+        top: unset;
+        left: unset;
+    }
+    .image-title {
+        margin: 0 0 0 1.5em;
+        padding: 0.5em 0 0em 0;
+        top: -2.9em;
+        left: -0.2em;
+    }
+    .image-description {
+        margin: 0.1em 0px 2em 0.3em;
+        top: -3em;
+        left: unset;
+        padding: 0 0.9em 0.1em 1.2em;
+    }
+}
+
+@media (min-width: 1440px) {
+    .bio-avatar {
+        margin: 1em auto 0 41.2em;
+    }
+    .bio-social-media {
+        margin: 0.2em auto 0.5em 17.6em;
+    }
+    .category-container {
+        margin: 2em 0 2em 73em;
+    }
+    .image-date {
+        margin: 1em auto 1.5em 6em;
+    }
+    .plus-circle-color {
+        top: 6.4em;
+        left: 3.1em;
+    }
+}

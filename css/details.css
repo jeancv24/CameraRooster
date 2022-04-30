@@ -1,0 +1,587 @@
+    .profilePhotos {
+        width: 50px;
+        height: 50px;
+        clip-path: circle(40% at 50% 50%);
+        float: left;
+        margin-left: 3%;
+    }
+    
+    .profileName {
+        position: relative;
+        bottom: -14px;
+        left: 10px;
+        text-align: start;
+        color: #cfcfcf;
+        font-size: 1.2em;
+        font-weight: normal;
+        text-decoration: none;
+        width: 97%;
+    }
+    
+    .profileView {
+        position: relative;
+        bottom: 9px;
+        left: -35px;
+        text-align: end;
+        color: #fe1a00;
+        font-size: 1.2em;
+        font-weight: normal;
+        float: right;
+        text-decoration: none;
+    }
+    
+    .category {
+        position: relative;
+        bottom: -25px;
+        left: -44px;
+        text-align: start;
+        color: #cfcfcf;
+        font-size: 0.9em;
+        font-weight: normal;
+        text-decoration: none;
+        margin-bottom: 45px;
+    }
+    
+    .detailsBG {
+        background: black;
+    }
+    
+
+    .photos {
+        margin-top: 20px;
+        margin-left: -30px;
+    }
+    
+    
+    .Votes {
+        position: sticky;
+        bottom: 1px;
+        left: 22px;
+        text-align: start;
+        color: #cfcfcf;
+        font-size: 1.2em;
+        font-weight: normal;
+        text-decoration: none;
+        width: 97%;
+        margin-left: -5px;
+    }
+    
+    .Date {
+        position: relative;
+        bottom: 9px;
+        left: -35px;
+        text-align: end;
+        color: #fe1a00;
+        font-size: 1.2em;
+        font-weight: normal;
+        float: right;
+        text-decoration: none;
+        bottom: 22px;
+    }
+    
+    .IconHeart {
+        width: 50px;
+        height: 50px;
+        margin-left: 3%;
+    }
+    
+    .fa-stack {
+        display: block;
+        height: 2em;
+        line-height: 2em;
+        position: relative;
+        width: 2.5em;
+        left: 5%;
+        bottom: 10px;
+        color: white;
+        float: left;
+        margin-left: 3%;
+        bottom: 6px;
+        left: 10px;
+    }
+    
+    p {
+        display: block;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .divMargin {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    
+    .container {
+        position: relative;
+        width: 100%;
+    }
+    
+    .image {
+        opacity: 1;
+        height: auto;
+        transition: .8s ease;
+        backface-visibility: hidden;
+        width: 400px; /**/
+        height: 450px;
+        object-fit: cover;  
+      
+    }
+    
+    .middle {
+        transition: .8s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    
+    .container:hover .image {
+        opacity: 0.3;
+    }
+    
+    .container:hover .middle {
+        opacity: 1;
+    }
+    
+    .text {
+        color: white;
+        font-size: 34px;
+        padding: 84px 60px;
+        width: 99%;
+        margin-left: -21%;
+    }
+    
+    @media (min-width: 1024px) {
+        .detailsBG {
+            background: white;
+        }
+        .windowsDetails {
+            position: fixed;
+            width: 75%;
+            height: 68%;
+            left: 12.5%;
+            top: 14%;
+            background: black;
+            margin-top: 1%;
+            margin-left: 0%;
+            padding-top: -6%;
+            padding-bottom: -3%;
+            padding-left: -17%;
+            border-radius: 40px;
+            box-sizing: -11px;
+        }
+        .ProfileDesktop {
+            float: right;
+            position: absolute;
+            bottom: 67%;
+            left: 65%;
+        }
+        .profilePhotos {
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            clip-path: circle(40% at 50% 50%);
+            float: left;
+            margin-left: 3%;
+            top: -175%;
+            left: -12%;
+        }
+        .profileName {
+            position: relative;
+            bottom: -99px;
+            text-align: center;
+            color: #cfcfcf;
+            font-size: 2.2em;
+            font-weight: normal;
+            text-decoration: none;
+            width: 198%;
+            left: -72%;
+        }
+        .profileView {
+            position: absolute;
+            bottom: -162px;
+            left: 5%;
+            text-align: end;
+            color: #fe1a00;
+            font-size: 1.2em;
+            font-weight: normal;
+            float: right;
+            text-decoration: none;
+        }
+        .CategoryDesktop {
+            left: 66.6%;
+            bottom: -378px;
+            font-size: 16px;
+        }
+        .container {
+            position: relative;
+            width: 32%;
+            left: 10%;
+            top: -13px;
+            float: left;
+        }
+        .VotesDesktop {
+            float: right;
+            position: absolute;
+            bottom: -5%;
+            left: 51%;
+        }
+        .Votes {
+            float: right;
+            position: absolute;
+            bottom: 50%;
+            left: 53%;
+            text-align: start;
+            color: #cfcfcf;
+            font-size: 1.2em;
+            font-weight: normal;
+            text-decoration: none;
+            width: 97%;
+            margin-left: -5px;
+        }
+        .Date {
+            float: right;
+            position: relative;
+            bottom: 9px;
+            left: 219px;
+            text-align: end;
+            color: #fe1a00;
+            font-size: 1.2em;
+            font-weight: normal;
+            float: right;
+            text-decoration: none;
+            bottom: 25px;
+        }
+        .fa-stack {
+            float: left;
+            display: block;
+            height: 2em;
+            line-height: 2em;
+            position: absolute;
+            width: 2.5em;
+            bottom: 30%;
+        }
+    }
+    
+    @media (width: 1280px) and (height: 700px) {
+        .container {
+            position: absolute;
+            margin-top: 4%;
+            margin-bottom: 23%;
+            width: 25%;
+            width: -7%;
+            float: left;
+        }
+    }
+    
+    @media (width: 1280px) and (height: 720px) {
+        .container {
+            position: relative;
+            width: 32%;
+            left: 10%;
+            top: -44px;
+            float: left;
+        }
+    }
+    
+    @media (min-width: 1280px) and (height: 800px) {
+        .detailsBG {
+            background: white;
+        }
+        .windowsDetails {
+            position: fixed;
+            width: 75%;
+            height: 68%;
+            left: 12.5%;
+            top: 14%;
+            background: black;
+            margin-top: 1%;
+            margin-left: 0%;
+            padding-top: -6%;
+            padding-bottom: -3%;
+            padding-left: -17%;
+            border-radius: 40px;
+            box-sizing: -11px;
+        }
+        .ProfileDesktop {
+            float: right;
+            position: absolute;
+            bottom: 67%;
+            left: 65%;
+        }
+        .profilePhotos {
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            clip-path: circle(40% at 50% 50%);
+            float: left;
+            margin-left: 3%;
+            top: -175%;
+            left: -12%;
+        }
+        .profileName {
+            position: relative;
+            bottom: -99px;
+            left: 10px;
+            text-align: start;
+            color: #cfcfcf;
+            font-size: 2.2em;
+            font-weight: normal;
+            text-decoration: none;
+            width: 198%;
+            left: -29%;
+        }
+        .profileView {
+            position: absolute;
+            bottom: -162px;
+            left: 5%;
+            text-align: end;
+            color: #fe1a00;
+            font-size: 1.2em;
+            font-weight: normal;
+            float: right;
+            text-decoration: none;
+        }
+        .CategoryDesktop {
+            left: 66.6%;
+            bottom: -378px;
+            font-size: 16px;
+        }
+        .container {
+            position: relative;
+            width: 32%;
+            left: 10%;
+            top: -13px;
+            float: left;
+        }
+        .VotesDesktop {
+            float: right;
+            position: absolute;
+            bottom: -5%;
+            left: 51%;
+        }
+        .Votes {
+            float: right;
+            position: absolute;
+            bottom: 50%;
+            left: 53%;
+            text-align: start;
+            color: #cfcfcf;
+            font-size: 1.2em;
+            font-weight: normal;
+            text-decoration: none;
+            width: 97%;
+            margin-left: -5px;
+        }
+        .Date {
+            float: right;
+            position: relative;
+            bottom: 9px;
+            left: 219px;
+            text-align: end;
+            color: #fe1a00;
+            font-size: 1.2em;
+            font-weight: normal;
+            float: right;
+            text-decoration: none;
+            bottom: 25px;
+        }
+        .fa-stack {
+            float: left;
+            display: block;
+            height: 2em;
+            line-height: 2em;
+            position: absolute;
+            width: 2.5em;
+            bottom: 30%;
+        }
+    }
+    
+    @media (min-width: 1250px) {
+        .container {
+            position: relative;
+            width: 33%;
+            left: 10%;
+            top: -20px;
+            float: left;
+        }
+    }
+    
+    @media (width: 1440px) {
+        .detailsBG {
+            background: white;
+        }
+        .windowsDetails {
+            position: fixed;
+            width: 75%;
+            height: 68%;
+            left: 12.5%;
+            top: 14%;
+            background: black;
+            margin-top: 1%;
+            margin-left: 0%;
+            padding-top: -6%;
+            padding-bottom: -3%;
+            padding-left: -17%;
+            border-radius: 40px;
+            box-sizing: -11px;
+        }
+        .ProfileDesktop {
+            float: right;
+            position: absolute;
+            bottom: 67%;
+            left: 65%;
+        }
+        .profilePhotos {
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            clip-path: circle(40% at 50% 50%);
+            float: left;
+            margin-left: 3%;
+            top: -175%;
+            left: -12%;
+        }
+        .profileName {
+            position: relative;
+            bottom: -99px;
+            left: 10px;
+            text-align: start;
+            color: #cfcfcf;
+            font-size: 2.2em;
+            font-weight: normal;
+            text-decoration: none;
+            width: 198%;
+            left: -29%;
+        }
+        .profileView {
+            position: absolute;
+            bottom: -162px;
+            left: 5%;
+            text-align: end;
+            color: #fe1a00;
+            font-size: 1.2em;
+            font-weight: normal;
+            float: right;
+            text-decoration: none;
+        }
+        .CategoryDesktop {
+            left: 66.6%;
+            bottom: -378px;
+            font-size: 16px;
+        }
+        .container {
+            position: absolute;
+            width: 32%;
+            left: 10%;
+            top: 1%;
+            float: left;
+        }
+        .VotesDesktop {
+            float: right;
+            position: absolute;
+            bottom: -5%;
+            left: 51%;
+        }
+        .Votes {
+            float: right;
+            position: absolute;
+            bottom: 50%;
+            left: 53%;
+            text-align: start;
+            color: #cfcfcf;
+            font-size: 1.2em;
+            font-weight: normal;
+            text-decoration: none;
+            width: 97%;
+            margin-left: -5px;
+        }
+        .Date {
+            float: right;
+            position: relative;
+            bottom: 9px;
+            left: 219px;
+            text-align: end;
+            color: #fe1a00;
+            font-size: 1.2em;
+            font-weight: normal;
+            float: right;
+            text-decoration: none;
+            bottom: 25px;
+        }
+        .fa-stack {
+            float: left;
+            display: block;
+            height: 2em;
+            line-height: 2em;
+            position: absolute;
+            width: 2.5em;
+            bottom: 30%;
+        }
+    }
+    
+    @media (width: 1440px) and (height: 900px) {
+        .container {
+            position: relative;
+            width: 32%;
+            left: 9%;
+            top: -13px;
+            float: left;
+        }
+    }
+    
+    @media (width: 1920px) {
+        .VotesDesktop {
+            float: right;
+            position: absolute;
+            bottom: 5%;
+            left: 57%;
+        }
+        .profileView {
+            position: absolute;
+            bottom: -165px;
+            left: -2%;
+            text-align: end;
+            color: #fe1a00;
+            font-size: 1.8em;
+            font-weight: normal;
+            float: right;
+            text-decoration: none;
+        }
+        .CategoryDesktop {
+            left: 65.2%;
+            bottom: -419px;
+            font-size: 24px;
+        }
+    }
+    
+    @media (width: 1980px) {
+        .container {
+            position: relative;
+            width: 32%;
+            left: 9%;
+            top: -13px;
+            float: left;
+        }
+        .profileView {
+            position: absolute;
+            bottom: -165px;
+            left: -2%;
+            text-align: end;
+            color: #fe1a00;
+            font-size: 1.8em;
+            font-weight: normal;
+            float: right;
+            text-decoration: none;
+        }
+        .CategoryDesktop {
+            left: 65.2%;
+            bottom: -419px;
+            font-size: 24px;
+        }
+    }

@@ -1,0 +1,122 @@
+#simple_table {
+    font-family: "Helvetica";
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+#simple_table td, #simple_table th {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #808080;
+}
+
+#simple_table tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#simple_table tr:hover {
+    background-color: #ff6161;
+}
+
+#simple_table tr>th {
+    background: #000000;
+    color: #ff0000;
+}
+
+.mv_table .accordion {
+    background-color: #eeeeee;
+    color: #000000;
+    cursor: pointer;
+    padding: 12px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 0px;
+    border-radius: 8px;
+    margin-right: 0px;
+}
+
+.mv_table .panel {
+    padding: 0 18px;
+    background-color: #FFFFFF;
+    display: none;
+    overflow: hidden;
+    color: #000000;
+}
+
+.mv_table .active {
+    background-color: #000000;
+    color: #ff0000;
+}
+
+.mv_table .arrow {
+    float: right;
+}
+
+.mv_table .darrow {
+    display: none;
+}
+
+.mv_table .accordian_table {
+    width: 100%;
+}
+
+.mv_table .accordian_table th {
+    text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+    .mv_table .accordian_content {
+        display: block;
+    }
+    .mv_table #simple_table {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .mv_table .accordian_content {
+        display: block;
+    }
+    .mv_table #simple_table {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .mv_table .accordian_content {
+        display: none;
+    }
+    .mv_table #simple_table {
+        display: table;
+    }
+}
+
+.TextParticipants {
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    text-align: center;
+    color: #686868;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.marginSection {
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+}
+
+@media (min-width: 768px) {
+    .marginSection {
+        margin-top: 1.2em;
+        margin-bottom: 1.2em;
+        margin-right: 5.2em;
+        margin-left: 5.2em;
+    }
+}

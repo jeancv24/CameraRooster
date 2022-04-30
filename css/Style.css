@@ -1,0 +1,584 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: url("../fonts/Helvetica-light.ttf?#iefix")format('embedded-opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*BODY*/
+
+body {
+    font-family: 'Helvetica';
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/*PROFILE*/
+
+.profilepic {
+    width: 30px;
+    height: 30px;
+    margin-top: -6px;
+    margin-left: -36px;
+    clip-path: circle(40% at 50% 50%);
+}
+
+
+
+
+
+/*PROFILE*/
+
+/*GENERAL*/
+
+.marginMobile {
+    margin-top: 13%;
+}
+
+.generalText {
+    margin-top: 1.2em;
+    margin-bottom: 0.2em;
+    text-align: center;
+    color: #686868;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.socialMediaIcons {
+    width: 60px;
+    height: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.socialMediaBlock {
+    display: flex;
+    justify-content: center;
+}
+
+/*BUTTON*/
+
+.Button {
+    box-shadow: inset 0px 0px 0px 0px #f29c93;
+    background-color: #fe1a00;
+    border-radius: 8px;
+    border: 2px solid #d83526;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 10px 76px;
+    text-decoration: none;
+    opacity: 100%;
+    line-height: 0em;
+}
+
+.Button:hover {
+    background-color: #ce0100;
+}
+
+.Button:active {
+    position: relative;
+    top: 1px;
+}
+
+.center {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.centerSection {
+
+    text-align: center;
+    margin-top: 9em;
+}
+
+.secondText {
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    text-align: center;
+    color: #8f8f8f;
+    font-size: 1.2em;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.marginText {
+    margin-top: 4%;
+}
+
+/*FOOTER*/
+
+footer {
+    position: absolute;
+    width: 100%;
+    padding: .5em 0 .5em;
+    background: #000000;
+    left: 0;
+    width: 100%;
+}
+
+footer.bottom {
+    bottom: 0;
+}
+
+.Logo {
+    width: 62%;
+    margin: auto 5.7em 1em;
+    opacity: 0.4;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
+div.Logo img.izquierda {
+    float: left;
+    margin: 0 0 0 0.9em;
+}
+
+div.reset {
+    clear: both;
+}
+
+.LogoText {
+    margin: 0em 2em 0em 1.7em;
+    padding-left: 0.5em;
+    font-weight: 900;
+    font-size: 1.4em;
+    color: #ffffff;
+    padding-top: 0.2em;
+    opacity: 0.4;
+}
+
+.FooterTextCenter {
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    text-align: center;
+    color: #ffffff;
+    opacity: 0.4;
+    font-size: 0.7em;
+}
+
+/*TOPNAV*/
+
+.topnav {
+    overflow: hidden;
+    background-color: #000000;
+    position: relative;
+}
+
+/* Oculta los links */
+
+.topnav #myLinks {
+    display: none;
+}
+
+/* Texto CameraRooster */
+
+.topText {
+    position: absolute;
+    display: block;
+    margin: -1.5em 1.7em;
+}
+
+/* Estilo de navs links */
+
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    background: black;
+    font-size: 1.6em;
+}
+
+
+/* Hover topNavs añade color cuando pasa el mouse */
+
+.topnav #myLinks :hover {
+    color: #a60321;
+}
+
+/* Estilo del menu de hamburguesa */
+
+.topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 8px;
+    opacity: 80%;
+}
+
+.input-text {
+    text-align: center;
+    display: inline-block;
+    padding: 0px 0px;
+    line-height: 140%;
+    font-size: 0.3em;
+}
+
+/* Estilo del que esta activo */
+
+.active {
+    background-color: #000000;
+    color: black;
+    font-size: 1.4em;
+    font-weight: 900;
+    color: #000000;
+}
+
+input {
+    width: 70%;
+    height: 2em;
+    margin: auto;
+    border: 3px solid #ff0000;
+    opacity: 50%;
+}
+
+input:focus {
+    border: 3px solid #ff0000;
+    opacity: 75%;
+    box-shadow: #a60321;
+    outline: none !important;
+}
+
+.inputField {
+    text-align: center;
+    font-size: 60px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    position: relative;
+    margin-top: -30px;
+}
+
+textarea {
+    font-family: 'Helvetica';
+    font-size: 1.3em;
+    width: 70%;
+    height: 15em;
+    margin: auto;
+    border: 3px solid #ff0000;
+    opacity: 50%;
+}
+
+textarea:focus {
+    border: 3px solid #ff0000;
+    opacity: 75%;
+    box-shadow: #a60321;
+    outline: none !important;
+}
+
+/* Funcion inline */
+
+.inline {
+    display: inline-block;
+}
+
+/*RESPONSIVE*/
+
+@media (min-width: 720.98px) {
+    .marginMobile {
+        margin-top: 0%;
+    }
+    /*FOOTER*/
+    .LogoText {
+        text-align: none;
+        margin: 0em 0em 0em auto;
+        padding-left: 0.5em;
+        font-weight: 900;
+        font-size: 1.4em;
+        color: #ffffff;
+        padding-top: 0.2em;
+    }
+    .Logo {
+        width: 58%;
+        margin: 0em 0em 0em auto;
+        opacity: 0.4;
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+    }
+}
+
+/*FOOTER MEDIA QUERIES*/
+
+@media (width: 768px) and (height: 1024px) {
+    .Logo {
+        width: 65%;
+        margin: 0em 0em 0em auto;
+        opacity: 0.4;
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+    }
+}
+
+@media (width: 1280px) {
+    .Logo {
+        width: 59%;
+        margin: 0em 0em 0em auto;
+        opacity: 0.4;
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+    }
+}
+
+@media (width: 1400px) {
+    .Logo {
+        width: 58%;
+        margin: 0em 0em 0em auto;
+        opacity: 0.4;
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+    }
+}
+
+@media (width: 1600px) {
+    .Logo {
+        width: 57%;
+        margin: 0em 0em 0em auto;
+        opacity: 0.4;
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+    }
+}
+
+@media (width: 1920px) {
+    .Logo {
+        width: 56%;
+        margin: 0em 0em 0em auto;
+        opacity: 0.4;
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+    }
+}
+
+@media (width: 1980px) {
+    .Logo {
+        width: 55.7%;
+        margin: 0em 0em 0em auto;
+        opacity: 0.4;
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+    }
+}
+
+@media (min-width: 1133px) {
+    /*HEADER*/
+    .topnav a.icon {
+        display: none;
+    }
+    .inline {
+        display: contents;
+    }
+    .topnav {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+    .header-logo {
+        width: 35px;
+        height: 35px;
+    }
+    /* muestra los links */
+    .topnav #myLinks {
+        display: inline-block;
+        padding: 0em;
+        margin-left: 8%;
+        margin-top: 0.9%;
+    }
+    /* Texto CameraRooster */
+    .topText {
+        position: absolute;
+        display: block;
+        margin: -1.5em 1.7em;
+        padding-left: 0.3em;
+        font-weight: 900;
+        font-size: 1.4em;
+    }
+    /* Estilo de navs links */
+    .topnav a {
+        width: 9.3em;;
+        color: white;
+        padding: 14px 0px;
+        text-decoration: none;
+        display: block;
+        background: black;
+        font-size: 1em;
+        float: left;
+    }
+    /* Estilo del que esta activo */
+    .active {
+        background-color: #000000;
+        color: black;
+        font-size: 1.4em;
+        font-weight: 900;
+        color: #000000;
+    }
+}
+
+@media (min-width: 1280px) {
+    /*HEADER*/
+    .topnav a.icon {
+        display: none;
+    }
+    .inline {
+        display: contents;
+    }
+    .topnav {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+    .header-logo {
+        width: 35px;
+        height: 35px;
+    }
+    /* muestra los links */
+    .topnav #myLinks {
+        display: inline-block;
+        padding: 0em;
+        margin-left: 8%;
+        margin-top: 0.9%;
+    }
+    /* Texto CameraRooster */
+    .topText {
+        position: absolute;
+        display: block;
+        margin: -1.5em 1.7em;
+        padding-left: 0.3em;
+        font-weight: 900;
+        font-size: 1.4em;
+    }
+    /* Estilo de navs links */
+    .topnav a {
+        width: 7em;
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        display: block;
+        background: black;
+        font-size: 1em;
+        float: left;
+        padding-left: 2em;
+    }
+    /* Estilo del que esta activo */
+    .active {
+        background-color: #000000;
+        color: black;
+        font-size: 1.4em;
+        font-weight: 900;
+        color: #000000;
+    }
+}
+
+@media (width: 1440px) and (height: 900px) {
+    /*HEADER*/
+    .topnav a.icon {
+        display: none;
+    }
+    .inline {
+        display: contents;
+    }
+    .topnav {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+    .header-logo {
+        width: 35px;
+        height: 35px;
+    }
+    /* muestra los links */
+    .topnav #myLinks {
+        display: inline-block;
+        padding: 0em;
+        margin-left: 8%;
+        margin-top: 0.9%;
+    }
+    /* Texto CameraRooster */
+    .topText {
+        position: absolute;
+        display: block;
+        margin: -1.5em 1.7em;
+        padding-left: 0.3em;
+        font-weight: 900;
+        font-size: 1.4em;
+    }
+    /* Estilo de navs links */
+    .topnav a {
+        width: 8em;
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        display: block;
+        background: black;
+        font-size: 1em;
+        float: left;
+    }
+    /* Estilo del que esta activo */
+    .active {
+        background-color: #000000;
+        color: black;
+        font-size: 1.4em;
+        font-weight: 900;
+        color: #000000;
+    }
+}
+
+@media (width: 1600px) and (height: 1200px) {
+    /*HEADER*/
+    .topnav a.icon {
+        display: none;
+    }
+    .inline {
+        display: contents;
+    }
+    .topnav {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+    .header-logo {
+        width: 35px;
+        height: 35px;
+    }
+    /* muestra los links */
+    .topnav #myLinks {
+        display: inline-block;
+        padding: 0em;
+        margin-left: 8%;
+        margin-top: 0.9%;
+    }
+    /* Texto CameraRooster */
+    .topText {
+        position: absolute;
+        display: block;
+        margin: -1.5em 1.7em;
+        padding-left: 0.3em;
+        font-weight: 900;
+        font-size: 1.4em;
+    }
+    /* Estilo de navs links */
+    .topnav a {
+        width: 8em;
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        display: block;
+        background: black;
+        font-size: 1em;
+        float: left;
+    }
+    /* Estilo del que esta activo */
+    .active {
+        background-color: #000000;
+        color: black;
+        font-size: 1.4em;
+        font-weight: 900;
+        color: #000000;
+    }
+}
